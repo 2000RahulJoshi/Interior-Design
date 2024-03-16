@@ -11,7 +11,7 @@
 }
 
 
-.topContHiddenImg,.servicesText p{
+.topContHiddenImg,.servicesText p {
     display: none;
     /* width: 100%; */
 }
@@ -23,19 +23,19 @@ html,body {
     width: 100%;
 }
 
-.firstContainer{
+.firstContainer {
     position: relative;
     width: 100%;
     color: white;
 }
 
 
-.mainContainer{
+.mainContainer {
     height: 100%;
     width: 100%;
 }
 
-.navBar{
+.navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,91 +44,87 @@ html,body {
     background-color: #ed1c24;
 }
 
-.navBox{
+.navBox {
     height: 17px;
     width: 17px;
     position: absolute;
 }
 
-.navLeft{
+.navLeft {
     letter-spacing: 1px;
     padding-left: 4%;
     position: relative;
 }
 
-.navLeft h2{
+.navLeft h2 {
     font-size: 20px;
 }
 
-.boxOne{
+.boxOne {
     background-color: #ff7004;
     left: 0;
     z-index: 3;
     top: 0;
 }
 
-.boxTwo{
+.boxTwo {
     background-color: #f4f3ee;
     left: 8%;
     z-index: 2;
     top: 33%;
 }
 
-.boxThree{
+.boxThree {
     background-color: #121111;
     left: 3%;
     top: 15%;
     z-index: 1;
 }
 
-.navRight span{
+.navRight span {
     display: block;
     border: 1.5px solid #f4f3ee;
     border-radius: 2px 2px 2px 2px;
 }
 
-.navRight{
+.navRight {
     z-index: 1000;
 }
 
-.line{
+.line {
     width: 32px;
 }
 
-.spanTwo{
+.spanTwo {
     margin-top: 4px;
     margin-bottom: 4px;
     width: 17px;
     margin-left: auto;
 }
 
-
-
-
-
-.topContainer{
+.topContainer {
     width: 100%;
     background-color: #ed1c24;
     padding: 8% 14% 13% 14%;
 }
 
-.topContainerContent{
+.topContainerContent {
     z-index: 1000;
 }
 
-.topContainerHeading{
+.topContainerHeading {
     font-size: 60px;
     line-height: 0.9;
     z-index: 1000;
 }
 
-.topContainerHeading h1{
+.topContainerHeading h1 {
     font-weight: 500;
     position: relative;
     z-index: 1000;
 }
 
-.topContaninerPara{
+.topContaninerPara {
     padding: 3% 0 4% 0;
     width: 40%;
     font-weight: 500;
@@ -136,7 +132,7 @@ html,body {
     line-height: 1.8;
 }
 
-.contactUsButton{
+.contactUsButton {
     padding: 1% 0;
     width: 15%;
     text-align: center;
@@ -146,12 +142,12 @@ html,body {
     cursor: pointer;
 }
 
-.contactUsButton a{
+.contactUsButton a {
     color: black;
     font-size: 15px;
 }
 
-.topRightContainerImg{
+.topRightContainerImg {
     position: absolute;
     right: 0;
     top: 0;
@@ -159,19 +155,19 @@ html,body {
     height: 100%;
 }
 
-.imageArrow{
+.imageArrow {
     position: absolute;
     width: 6%;
 }
 
-.imageRightArrowCont{
+.imageRightArrowCont {
     left: 43%;
     bottom: 10%;
     background-color: #ed1c24;
     padding: 0.5% 0.1% 0.5% 4.2%;
 }
 
-.imageLeftArrowCont{
+.imageLeftArrowCont {
     bottom: 5.2%;
     left: 41%;
     background-color: #ab9d92;
@@ -179,18 +175,18 @@ html,body {
     transform: rotate(180deg);
 }
 
-.zeroOneTextCont{
+.zeroOneTextCont {
     position: absolute;
     bottom: 7%;
     width: 4%;
     text-align: center;
 }
 
-.zeroOneText{
+.zeroOneText {
     position: relative;
 }
 
-.zeoOneline{
+.zeoOneline {
     width: 100%;
     position: absolute;
     border: 1px solid white;
@@ -198,79 +194,174 @@ html,body {
     bottom: 47%;
 }
 
-.zeroOneTextContOne{
+.zeroOneTextContOne {
     left: 3%;
 }
 
-.zeroOneTextContTwo{
+.zeroOneTextContTwo {
     right: 3%;
 }
 
-.zeroOneText p{
+.zeroOneText p {
     font-size: 14px;
 }
 
 
-.services{
+.services {
     color: black;
     padding: 6% 14% 8% 14%;
     text-align: center;
 }
 
-.servicesText{
+.servicesText {
     padding-bottom: 4%;
 }
 
-.services h2{
+.services h2 {
     font-size: 33px;
     font-weight: 500;
 }
 
-.services p{
+.services p {
     font-size: 14px;
 }
 
-.servicesCardsContainer{
+.servicesCardsContainer {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.serviceCard{
+.serviceCard {
     width: 19%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.serviceImg{
+.serviceImg {
     width: 33%;
 }
 
-.serviceCardGap{
+.serviceCardGap {
     padding-bottom: 4%;
 }
 
-.cardHeading h2{
+.cardHeading h2 {
     font-size: 17px;
 }
 
-.cardPara p{
+.cardPara p {
     font-size: 13px;
     color: #b1b1b1;
 }
 
-.readMoreButton{
+.readMoreButton {
     padding-top: 4%;
 }
 
-.readMoreButton button{
+.readMoreButton button {
     background-color: #ed1c24;
     color: white;
     border: none;
     padding: 4px 12px;
     font-size: 12px;
 }
+
+.aboutContainer{
+    width: 100%;
+    padding: 7% 14% 5% 16%;
+    background-color: #f3f3f3;
+}
+
+.aboutContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutLeft,.aboutRight{
+    width: 46%;
+    position: relative;
+}
+
+
+.aboutLeftBgImg{
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    right: 5%;
+}
+
+.aboutLeftTopImg img{ 
+    z-index: 1000;
+    position: relative;
+}
+
+.aboutRightImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.aboutRightContent{
+    position: relative;
+    z-index: 1000;
+    padding: 10% 2% 1% 8%;
+}
+
+.aboutRightContent h1{
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+
+.aboutRightContent p{
+    font-size: 13px;
+    padding-bottom: 6%;
+    line-height: 1.7;
+}
+
+
+.aboutContainer button{
+    float: right;
+    color: white;
+    background-color: #ed1c24;
+    border: none;
+    padding: 1% 4%;
+    border-radius: 6px;
+}
+
+.circle{
+    position: absolute;
+    height: 10%;
+    width: 9%;
+    border-radius: 50%;
+    z-index: 2000;
+}
+
+.red{
+    background-color: red;
+    left: -4%;
+    top: -4%;
+}
+
+.orange{
+    left: -4%;
+    bottom: -1%;
+    background-color: #ff7004;
+}
+
+.black{
+    right: -5%;
+    top: 39%;
+    background-color: black;
+}
+
+
+
+
+
 
 
 
@@ -280,11 +371,11 @@ html,body {
 
 @media (max-width:440px) {
 
-    .topRightContainerImg,.imageArrow,.zeroOneTextCont{
+    .topRightContainerImg,.imageArrow,.zeroOneTextCont {
         display: none;
     }
 
-    .topContHiddenImg{
+    .topContHiddenImg {
         display: block;
         width: 100%;
     }
@@ -292,89 +383,89 @@ html,body {
 
 
     
-    .navLeft{
+    .navLeft {
         padding-left: 12%;
     }
 
-    .topContainer{
+    .topContainer {
         padding: 4% 4%;
     }
 
-    .topContainerHeading{
+    .topContainerHeading {
         font-size: 16px;
         padding-bottom: 4%;
         text-align: center;
     }
 
-    .topContainerHeading h1{
+    .topContainerHeading h1 {
         display: inline;
     }
 
-    .topContaninerPara{
+    .topContaninerPara {
         width: 100%;
         text-align: justify;
         word-break: break-all;
     }
 
-    .contactUsButton{
+    .contactUsButton {
         width: 50%;
         margin: auto;
     }
 
-    .services{
-        padding: 2% 4%;
+    .services {
+        padding: 3% 4% 5% 4%;
     }
 
-    .servicesText h2{
+    .servicesText h2 {
         color: #ed1c24;
         font-weight: 600;
         font-size: 37px;
     }
 
-    .servicesCardsContainer{
+    .servicesCardsContainer {
         flex-direction: column;
         gap: 2rem;
     }
     
-    .serviceCard{
+    .serviceCard {
         width: 100%;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         padding: 2% 1% 4% 1%;
     }
 
-    .serviceImg{
+    .serviceImg {
         order: 2;
     }
 
-    .cardHeading{
+    .cardHeading {
         order: 1;
     }
 
-    .cardPara{
+    .cardPara {
         order: 3;
         padding-bottom: 0;
     }
 
-    .readMoreButton{
+    .readMoreButton {
         order: 4;
         padding-top: 0%;
     }
 
-    .readMoreButton button{
+    .readMoreButton button {
         font-size: 16px;
     }
 
-    .cardHeading h2{
+    .cardHeading h2 {
         font-size: 26px;
     }
 
-    .cardPara p{
+    .cardPara p {
         font-size: 16px;
         text-align: justify;
         word-break: break-all;
     }
 
-    .serviceCardGap{
+    .serviceCardGap {
         padding-bottom: 2%;
     }
 }
