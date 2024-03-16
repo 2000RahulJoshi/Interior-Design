@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&display=swap') */
+
 
 *{
     margin: 0;
@@ -358,7 +360,49 @@ html,body {
     background-color: black;
 }
 
+.conceptContainer{
+    width: 100%;
+    padding: 6% 14% 6% 14%;
+}
 
+.conceptCards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conceptCrd{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.conceptContainerCenterText{
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.conceptContainerCenterText h1{
+    font-weight: 500;
+}
+
+.conceptContainerCenterText p{
+    /* font-family: "Noto Sans Glagolitic", sans-serif; */
+    font-size: 14px;
+}
+
+.conceptCrdHeading h2{
+    font-weight: bold;
+    font-size: 15px;    
+}
+
+.conceptCrdPara {
+    font-size: 12px;
+    word-break: break-all;
+}
 
 
 
@@ -371,7 +415,7 @@ html,body {
 
 @media (max-width:440px) {
 
-    .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft {
+    .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft,.conceptContainerCenterText p {
         display: none;
     }
 
@@ -475,7 +519,7 @@ html,body {
     }
 
     .aboutContainer{
-        padding: 3% 4% 2% 4%;
+        padding: 3% 4% 4% 4%;
     }
 
     .aboutRight,.aboutLeft{
@@ -506,6 +550,29 @@ html,body {
         display: flex;
         justify-content: center;
     }
+
+    .conceptContainer{
+        padding: 3% 4% 4% 4%;
+    }
+
+    .conceptCards{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .conceptCrd{
+        width: 100%;
+    }
+
+    .conceptContainerCenterText{
+        padding-bottom: 2%;
+    }
+
+    .conceptContainerCenterText h2{
+        font-weight: 600;
+    }
+
+
 }
 
 
