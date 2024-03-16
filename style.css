@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.firstContainer{
+    position: relative;
+    width: 100%;
+}
+
+
+.mainContainer{
+    height: 100%;
+    width: 100%;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2% 3%;
+    background-color: #ed1c24;
+}
+
+.navBox{
+    height: 17px;
+    width: 17px;
+    position: absolute;
+}
+
+.navLeft{
+    letter-spacing: 1px;
+    padding-left: 4%;
+    position: relative;
+}
+
+.navLeft h2{
+    font-size: 20px;
+}
+
+.boxOne{
+    background-color: #ff7004;
+    left: 0;
+    z-index: 3;
+    top: 0;
+}
+
+.boxTwo{
+    background-color: #f4f3ee;
+    left: 8%;
+    z-index: 2;
+    top: 33%;
+}
+
+.boxThree{
+    background-color: #121111;
+    left: 3%;
+    top: 15%;
+    z-index: 1;
+}
+
+.navRight span{
+    display: block;
+    border: 1.5px solid #f4f3ee;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.navRight{
+    z-index: 1000;
+}
+
+.line{
+    width: 32px;
+}
+
+.spanTwo{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 17px;
+    margin-left: auto;
+}
+
+
+
+
+
+.topContainer{
+    width: 100%;
+    background-color: #ed1c24;
+    padding: 8% 14% 13% 14%;
+}
+
+.topContainerContent{
+    z-index: 1000;
+}
+
+.topContainerHeading{
+    font-size: 60px;
+    line-height: 0.9;
+    z-index: 1000;
+}
+
+.topContainerHeading h1{
+    font-weight: 500;
+    position: relative;
+    z-index: 1000;
+}
+
+.topContaninerPara{
+    padding: 3% 0 4% 0;
+    width: 40%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.contactUsButton{
+    padding: 1% 0;
+    width: 15%;
+    text-align: center;
+    background-color: #fefefe;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.contactUsButton a{
+    color: black;
+    font-size: 15px;
+}
+
+.topRightContainerImg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55%;
+    height: 100%;
+}
+
+.imageArrow{
+    position: absolute;
+    width: 6%;
+}
+
+.imageRightArrowCont{
+    left: 43%;
+    bottom: 10%;
+    background-color: #ed1c24;
+    padding: 0.5% 0.1% 0.5% 4.2%;
+}
+
+.imageLeftArrowCont{
+    bottom: 5.2%;
+    left: 41%;
+    background-color: #ab9d92;
+    padding: 0.5% 0.1% 0.5% 4.2%;
+    transform: rotate(180deg);
+}
+
+.zeroOneTextCont{
+    position: absolute;
+    bottom: 7%;
+    width: 4%;
+    text-align: center;
+}
+
+.zeroOneText{
+    position: relative;
+}
+
+.zeoOneline{
+    width: 100%;
+    position: absolute;
+    border: 1px solid white;
+    left: 0;
+    bottom: 47%;
+}
+
+.zeroOneTextContOne{
+    left: 3%;
+}
+
+.zeroOneTextContTwo{
+    right: 3%;
+}
+
+.zeroOneText p{
+    font-size: 14px;
+}
