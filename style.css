@@ -7,9 +7,15 @@
     box-sizing: border-box;
     /* border: 1px solid black; */
     font-family: "Poppins", sans-serif;
-    color: white;
     text-decoration: none;
 }
+
+
+.topContHiddenImg,.servicesText p{
+    display: none;
+    /* width: 100%; */
+}
+
 
 
 html,body {
@@ -20,6 +26,7 @@ html,body {
 .firstContainer{
     position: relative;
     width: 100%;
+    color: white;
 }
 
 
@@ -202,3 +209,181 @@ html,body {
 .zeroOneText p{
     font-size: 14px;
 }
+
+
+.services{
+    color: black;
+    padding: 6% 14% 8% 14%;
+    text-align: center;
+}
+
+.servicesText{
+    padding-bottom: 4%;
+}
+
+.services h2{
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.services p{
+    font-size: 14px;
+}
+
+.servicesCardsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serviceCard{
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceImg{
+    width: 33%;
+}
+
+.serviceCardGap{
+    padding-bottom: 4%;
+}
+
+.cardHeading h2{
+    font-size: 17px;
+}
+
+.cardPara p{
+    font-size: 13px;
+    color: #b1b1b1;
+}
+
+.readMoreButton{
+    padding-top: 4%;
+}
+
+.readMoreButton button{
+    background-color: #ed1c24;
+    color: white;
+    border: none;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+@media (max-width:440px) {
+
+    .topRightContainerImg,.imageArrow,.zeroOneTextCont{
+        display: none;
+    }
+
+
+    .topContHiddenImg{
+        display: block;
+        width: 100%;
+    }
+
+
+
+    
+    .navLeft{
+        padding-left: 12%;
+    }
+
+    .topContainer{
+        padding: 4% 4%;
+    }
+
+    .topContainerHeading{
+        font-size: 16px;
+        padding-bottom: 4%;
+        text-align: center;
+    }
+
+    .topContainerHeading h1{
+        display: inline;
+    }
+
+    .topContaninerPara{
+        width: 100%;
+        text-align: justify;
+        word-break: break-all;
+    }
+
+    .contactUsButton{
+        width: 50%;
+        margin: auto;
+    }
+
+    .services{
+        padding: 2% 4%;
+    }
+
+    .servicesText h2{
+        color: #ed1c24;
+        font-weight: 600;
+        font-size: 37px;
+    }
+
+    .servicesCardsContainer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .serviceCard{
+        width: 100%;
+    }
+
+    .serviceImg{
+        order: 2;
+    }
+
+    .cardHeading{
+        order: 1;
+    }
+
+    .cardPara{
+        order: 3;
+        padding-bottom: 0;
+    }
+
+    .readMoreButton{
+        order: 4;
+        padding-top: 0%;
+    }
+
+    .readMoreButton button{
+        font-size: 16px;
+    }
+
+    .cardHeading h2{
+        font-size: 30px;
+    }
+
+    .cardPara p{
+        font-size: 16px;
+        text-align: justify;
+        word-break: break-all;
+    }
+
+    .serviceCardGap{
+        padding-bottom: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
