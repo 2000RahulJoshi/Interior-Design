@@ -11,9 +11,8 @@
 }
 
 
-.topContHiddenImg,.servicesText p {
+.topContHiddenImg,.servicesText p,.aboutHiddenHeading,.aboutLeftHiddenImg {
     display: none;
-    /* width: 100%; */
 }
 
 
@@ -270,7 +269,7 @@ html,body {
 
 .aboutContainer{
     width: 100%;
-    padding: 7% 14% 5% 16%;
+    padding: 8% 14% 8% 16%;
     background-color: #f3f3f3;
 }
 
@@ -282,6 +281,7 @@ html,body {
 .aboutLeft,.aboutRight{
     width: 46%;
     position: relative;
+    background-color: #f3f3f3;
 }
 
 
@@ -299,14 +299,14 @@ html,body {
 
 .aboutRightImg{
     position: absolute;
-    top: 0;
+    top: -2%;
     left: 0;
     width: 100%;
 }
 
 .aboutRightContent{
     position: relative;
-    z-index: 1000;
+    /* z-index: 1000; */
     padding: 10% 2% 1% 8%;
 }
 
@@ -371,11 +371,11 @@ html,body {
 
 @media (max-width:440px) {
 
-    .topRightContainerImg,.imageArrow,.zeroOneTextCont {
+    .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft {
         display: none;
     }
 
-    .topContHiddenImg {
+    .topContHiddenImg,.aboutHiddenHeading,.aboutLeftHiddenImg{
         display: block;
         width: 100%;
     }
@@ -467,6 +467,44 @@ html,body {
 
     .serviceCardGap {
         padding-bottom: 2%;
+    }
+
+    .aboutContent{
+        flex-direction: column;
+
+    }
+
+    .aboutContainer{
+        padding: 3% 4% 2% 4%;
+    }
+
+    .aboutRight,.aboutLeft{
+        width: 100%;
+    }
+
+    .aboutHiddenHeading{
+        font-size: 37px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .aboutRightContent{
+        padding: 0;
+        word-break: break-all;
+    }
+
+    .aboutLeftHiddenImg{
+        padding-top: 3%;
+    }
+
+    .aboutContainerButton button{
+        font-size: 16px;
+        border-radius: 0;
+    }
+
+    .aboutContainerButton{
+        display: flex;
+        justify-content: center;
     }
 }
 
