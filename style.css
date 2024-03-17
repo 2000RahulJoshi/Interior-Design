@@ -826,6 +826,7 @@ button,.clientReadMoreBtn{
 }
 
 button:hover,.contactUsButton:hover{
+    color: black;
     scale: 1.1;
     border-radius: 8px;
     background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
@@ -834,10 +835,11 @@ button:hover,.contactUsButton:hover{
 }
 
 .clientReadMoreBtn:hover{
-    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    color: black;
     background-position: right center;
     color: black;
     scale: 1.1;
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
 }
 
 
