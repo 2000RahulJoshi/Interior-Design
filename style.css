@@ -826,14 +826,16 @@ button,.clientReadMoreBtn{
 }
 
 button:hover,.contactUsButton:hover{
-    background-color: rgb(67, 184, 219);
-    color: black;
     scale: 1.1;
     border-radius: 8px;
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    background-position: right center;
+    color: black;
 }
 
 .clientReadMoreBtn:hover{
-    background-color: rgb(67, 184, 219);
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    background-position: right center;
     color: black;
     scale: 1.1;
 }
