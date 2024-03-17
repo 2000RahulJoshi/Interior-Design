@@ -4,10 +4,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid blue; */
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+/* all the container which have the display property flex and direction row */
+.dflexRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    background-color: #ed1c24;
+    color: white;
+    border: none;   
+}
+
+/* all the containers which have the display propery flex and direction column */
+.dflexCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .checkBtn{
@@ -15,10 +36,6 @@
 }
 
 #check,.HamContent{
-    display: none;
-}
-
-.topContHiddenImg,.aboutHiddenHeading,.aboutLeftHiddenImg {
     display: none;
 }
 
@@ -38,10 +55,8 @@ html,body {
     width: 100%;
 }
 
+/* nav Bar */
 .navBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: relative;
     padding: 2% 3%;
     background-color: #ed1c24;
@@ -57,10 +72,7 @@ html,body {
     letter-spacing: 1px;
     padding-left: 4%;
     position: relative;
-}
-
-.navLeft h2 {
-    font-size: 20px;
+    font-size: 13px
 }
 
 .boxOne {
@@ -105,20 +117,17 @@ html,body {
     margin-left: auto;
 }
 
+
+/* container one */
 .topContainer {
     width: 100%;
     background-color: #ed1c24;
     padding: 8% 14% 13% 14%;
 }
 
-.topContainerContent {
-    z-index: 1000;
-}
-
 .topContainerHeading {
     font-size: 60px;
     line-height: 0.9;
-    z-index: 1000;
 }
 
 .topContainerHeading h1 {
@@ -210,7 +219,12 @@ html,body {
     font-size: 14px;
 }
 
+.topContHiddenImg,.aboutHiddenHeading,.aboutLeftHiddenImg {
+    display: none;
+}
 
+
+/* services container css */
 .services {
     color: black;
     padding: 6% 14% 8% 14%;
@@ -232,15 +246,10 @@ html,body {
 
 .servicesCardsContainer {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .serviceCard {
     width: 19%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .serviceImg {
@@ -251,6 +260,8 @@ html,body {
     padding-bottom: 4%;
 }
 
+
+/* services cards */
 .cardHeading h2 {
     font-size: 17px;
 }
@@ -265,13 +276,12 @@ html,body {
 }
 
 .readMoreButton button {
-    background-color: #ed1c24;
-    color: white;
-    border: none;
     padding: 4px 12px;
     font-size: 12px;
 }
 
+
+/* about container */
 .aboutContainer{
     width: 100%;
     padding: 8% 14% 8% 16%;
@@ -286,9 +296,7 @@ html,body {
 .aboutLeft,.aboutRight{
     width: 46%;
     position: relative;
-    background-color: #f3f3f3;
 }
-
 
 .aboutLeftBgImg{
     position: absolute;
@@ -328,9 +336,6 @@ html,body {
 
 .aboutContainer button{
     float: right;
-    color: white;
-    background-color: #ed1c24;
-    border: none;
     padding: 1% 4%;
     border-radius: 6px;
 }
@@ -403,18 +408,15 @@ html,body {
 }
 
 
-
+/* to create a hover effect and reflect a circle in the background */
 .conceptCardBgEffect{
     position: absolute;
     top: 27%;
     left: 41%;
-    z-index: 1000;
     width: 18%;
     height: 19%;
     border-radius: 50%;
     background-color: rgba(255, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
     justify-content: center;
     opacity: 0;
     visibility: hidden;
@@ -427,10 +429,6 @@ html,body {
     transition-delay: 0s;
 }
 
-
-
-
-
 .conceptCrdHeading h2{
     font-weight: bold;
     font-size: 15px;    
@@ -441,6 +439,8 @@ html,body {
     word-break: break-all;
 }
 
+
+/* who we are container */
 .whoWeAreContainer{
     width: 100%;
     padding: 4% 14% 4% 14%;
@@ -511,6 +511,8 @@ html,body {
     cursor: pointer;
 }
 
+
+/* create the hover effect and add a layer of red color on the image */
 .imageHoverColor{
     width: 100%;
     height: 98%;
@@ -578,6 +580,7 @@ html,body {
     right: -9rem;
 }
 
+/* client card */
 .clientReview{
     padding: 1% 14% 3% 14%;
 }
@@ -615,7 +618,6 @@ html,body {
     text-align: center;
     padding-bottom: 8%;
 }
-
 
 .clientReviewHeading h1{
     font-weight: 600;
@@ -682,6 +684,8 @@ html,body {
     position: relative;
 }
 
+
+/* this is form section */
 form{
     width: 100%;
 }
@@ -750,7 +754,6 @@ textarea{
     justify-content: space-between;
 }
 
-
 .footerCard{
     width: 45%;
 }
@@ -758,7 +761,6 @@ textarea{
 .footerCard a{
     color: white;
 }
-
 
 .footerCard h2{
     font-weight: 700;
@@ -814,9 +816,7 @@ textarea{
 }
 
 .footerImages{
-    display: flex;
     justify-content: center;
-    align-items: center;
     gap: 1%;
 }
 
@@ -825,7 +825,7 @@ button,.clientReadMoreBtn{
     transition: 0.5s;
 }
 
-button:hover{
+button:hover,.contactUsButton:hover{
     background-color: rgb(67, 184, 219);
     color: black;
     scale: 1.1;
@@ -838,27 +838,19 @@ button:hover{
     scale: 1.1;
 }
 
-.contactUsButton:hover{
-    background-color: rgb(67, 184, 219);
-}
 
 
 
 
-
-
-
-
-
-
-
+/* media query for the phone */
 @media (max-width:440px) {
 
-    .HamContent{
-        display: block;
+    .wHundredPercent{
+        width: 100%;
     }
 
     .HamContent{ 
+        display: block;
         flex-direction: column;
         position: fixed;
         background-color: black;
@@ -887,16 +879,14 @@ button:hover{
         color: white;
     }
 
-
-    .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft,.conceptContainerCenterText p,.projectArrow,.projectsPara,.servicesText p,.clientReviewHeading p{
+    .dPhoneHidden{
         display: none;
     }
 
-    .topContHiddenImg,.aboutHiddenHeading,.aboutLeftHiddenImg{
+    .dphoneVisible{
         display: block;
-        width: 100%;
     }
-    
+
     .navLeft {
         padding-left: 12%;
     }
@@ -917,7 +907,6 @@ button:hover{
     }
 
     .topContaninerPara {
-        width: 100%;
         text-align: justify;
         word-break: break-all;
     }
@@ -986,15 +975,10 @@ button:hover{
 
     .aboutContent{
         flex-direction: column;
-
     }
 
     .aboutContainer{
         padding: 3% 8% 4% 8%;
-    }
-
-    .aboutRight,.aboutLeft{
-        width: 100%;
     }
 
     .aboutHiddenHeading{
@@ -1031,10 +1015,6 @@ button:hover{
         gap: 2rem;
     }
 
-    .conceptCrd{
-        width: 100%;
-    }
-
     .conceptContainerCenterText{
         padding-bottom: 2%;
     }
@@ -1067,10 +1047,6 @@ button:hover{
         gap: 1rem;
     }
 
-    .projectImg{
-        width: 100%;
-    }
-
     .projectsHeading{
         font-weight: 600;
     }
@@ -1088,24 +1064,12 @@ button:hover{
     }
 
     .clientReviewHeading{
-        width: 100%;
-    }
-
-    .clientReviewHeading{
         line-height: 1;
     }
 
     .clientCards{
         flex-direction: column;
         padding-bottom: 2rem;
-    }
-
-    .clientCadsImg{
-        width: 100%;
-    }
-
-    .clientCardInfo{
-        width: 100%;
     }
 
     .clientCardInfo p{
@@ -1128,16 +1092,11 @@ button:hover{
         flex-direction: column;
     }
 
-    .formInput{
-        width: 100%;
-    }
-
     .footer{
         padding: 7% 8%;
     }
 
     .footerLeft,.footerRight,.footerCard,.footerContent{
-        width: 100%;
         flex-direction: column;
         gap: 2.5rem;
     }
@@ -1154,7 +1113,6 @@ button:hover{
     }
 
     .footerEmail{
-        width: 100%;
         padding-top: 4%;
     }
 
@@ -1167,9 +1125,18 @@ button:hover{
         padding-top: 2%;
     }
 
+    .footerCard p{
+        width: 100%;
+    }
+
+    .footerCard{
+        width: 100%;
+    }
 }
 
 
+
+/* media query for tab */
 @media (min-width:440px ) and (max-width:1180px){
     .projectLeftSlider{
         left: -5rem;
