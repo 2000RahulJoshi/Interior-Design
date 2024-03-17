@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&display=swap') */
-
-
 *{
     margin: 0;
     padding: 0;
@@ -12,12 +9,9 @@
     text-decoration: none;
 }
 
-
-.topContHiddenImg,.servicesText p,.aboutHiddenHeading,.aboutLeftHiddenImg {
+.topContHiddenImg,.aboutHiddenHeading,.aboutLeftHiddenImg {
     display: none;
 }
-
-
 
 html,body {
     height: 100%;
@@ -29,7 +23,6 @@ html,body {
     width: 100%;
     color: white;
 }
-
 
 .mainContainer {
     height: 100%;
@@ -308,7 +301,6 @@ html,body {
 
 .aboutRightContent{
     position: relative;
-    /* z-index: 1000; */
     padding: 10% 2% 1% 8%;
 }
 
@@ -323,7 +315,6 @@ html,body {
     padding-bottom: 6%;
     line-height: 1.7;
 }
-
 
 .aboutContainer button{
     float: right;
@@ -379,7 +370,6 @@ html,body {
     position: relative;
 }
 
-
 .conceptContainerCenterText{
     text-align: center;
     padding-bottom: 8%;
@@ -390,7 +380,6 @@ html,body {
 }
 
 .conceptContainerCenterText p{
-    /* font-family: "Noto Sans Glagolitic", sans-serif; */
     font-size: 14px;
 }
 
@@ -543,20 +532,9 @@ html,body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:440px) {
 
-    .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft,.conceptContainerCenterText p,.projectArrow,.projectsPara {
+    .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft,.conceptContainerCenterText p,.projectArrow,.projectsPara,.servicesText p {
         display: none;
     }
 
@@ -564,16 +542,13 @@ html,body {
         display: block;
         width: 100%;
     }
-
-
-
     
     .navLeft {
         padding-left: 12%;
     }
 
     .topContainer {
-        padding: 4% 4%;
+        padding: 4% 6%;
     }
 
     .topContainerHeading {
@@ -598,7 +573,7 @@ html,body {
     }
 
     .services {
-        padding: 3% 4% 5% 4%;
+        padding: 3% 6% 5% 6%;
     }
 
     .servicesText h2 {
@@ -660,7 +635,7 @@ html,body {
     }
 
     .aboutContainer{
-        padding: 3% 4% 4% 4%;
+        padding: 3% 6% 4% 6%;
     }
 
     .aboutRight,.aboutLeft{
@@ -693,7 +668,7 @@ html,body {
     }
 
     .conceptContainer{
-        padding: 3% 4% 4% 4%;
+        padding: 3% 6% 4% 6%;
     }
 
     .conceptCards{
@@ -714,7 +689,7 @@ html,body {
     }
 
     .whoWeAreContainer{
-        padding: 4% 4% 6% 4%;
+        padding: 4% 6% 6% 6%;
     }
 
     .whoWeAreContent{
@@ -729,7 +704,7 @@ html,body {
     }
 
     .projects{
-        padding: 3% 4% 3% 4%;
+        padding: 3% 6% 3% 6%;
     }
 
     .projectImgContainer{
@@ -752,7 +727,6 @@ html,body {
     .projectsText{
         padding-bottom: 2%;
     }
-
 }
 
 
