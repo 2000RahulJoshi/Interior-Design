@@ -35,4 +35,3 @@ git clone https://github.com/2000RahulJoshi/Interior-Design.git
 3- Open the index.html file in a web browser to preview the landing page.         
 =======
 3- Open the index.html file in a web browser to preview the landing page.
->>>>>>> 1b5fcd2bfa436fb0047304c44f54df72bc680caa
