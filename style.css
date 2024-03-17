@@ -12,14 +12,7 @@
 
 .checkBtn{
     cursor: pointer;
-    transition: 0.5s;
 }
-
-.checkBtn:hover > span{
-    border: 2px solid red;
-}
-
-
 
 #check,.HamContent{
     display: none;
@@ -1222,14 +1215,6 @@ button:hover{
     .topContainerHeading h1{
         z-index: 1;
     }
-
-    /* .black{
-        top: 22%;
-    }
-
-    .orange{
-        bottom: 32%;
-    } */
 
     .aboutRightContent p{
         font-size: 8px;
