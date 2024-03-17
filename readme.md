@@ -4,7 +4,7 @@
 ## Interior Design Landing Page is a responsive web page that I have create for laptop, mobile screens and tablet screen using html and css.
 
 # Overview :-
-## I Creaed this page using html, css (flexbox,position,transition and) and many other properies of the html and css
+## I Created this page using html, css (flexbox,position,transition) and many other properies of the html and css
 
 1- The first container container the navigation bar and the basic information of the website.
 
@@ -31,4 +31,8 @@ git clone https://github.com/2000RahulJoshi/Interior-Design.git
 
 2- Update the styles in the style.css file to customize the look of the lalnding page
 
+<<<<<<< HEAD
 3- Open the index.html file in a web browser to preview the landing page.         
+=======
+3- Open the index.html file in a web browser to preview the landing page.
+>>>>>>> 1b5fcd2bfa436fb0047304c44f54df72bc680caa
