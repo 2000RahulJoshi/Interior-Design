@@ -863,24 +863,24 @@ button:hover{
         position: fixed;
         background-color: black;
         padding: 11px 11px;
-        gap: 0;
+        gap: 2.1rem;
         z-index: 3000;
         right: -100%;
         transition: all 0.5s;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top:47px;
     } 
+
     .checkBtn{
         position: fixed;
         right: 3%;
     }
 
     #check:checked ~ .HamContent{
-        top:47px;
         right: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2.1rem;
-        width: 100%;
     }
 
     .HamContent a{
@@ -1188,11 +1188,17 @@ button:hover{
         position: fixed;
         background-color: black;
         padding: 11px 11px;
-        gap: 0;
+        gap: 2.1rem;
         z-index: 3000;
         right: -100%;
         transition: all 0.5s;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top:47px;
     } 
+    
     .checkBtn{
         position: fixed;
         right: 3%;
