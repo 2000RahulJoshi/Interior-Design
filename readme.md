@@ -4,7 +4,7 @@
 ## Interior Design Landing Page is a responsive web page that I have create for laptop, mobile screens and tablet screen using html and css.
 
 # Overview :-
-## I Created this page using html, css (flexbox,position,transition and) and many other properies of the html and css
+## I Created this page using html, css (flexbox,position,transition) and many other properies of the html and css
 
 1- The first container container the navigation bar and the basic information of the website.
 
