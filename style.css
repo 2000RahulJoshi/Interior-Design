@@ -7,7 +7,15 @@
     /* border: 1px solid blue; */
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    list-style: none;
 }
+
+#check,.HamContent{
+    display: none;
+}
+
+
+
 
 .topContHiddenImg,.aboutHiddenHeading,.aboutLeftHiddenImg {
     display: none;
@@ -385,8 +393,12 @@ html,body {
 
 .conceptCrd{
     position: relative;
+    transition: 0.5s;
 }
 
+.conceptCrd:hover{
+    transform: translateY(-9px);
+}
 
 
 
@@ -818,6 +830,43 @@ textarea{
 
 @media (max-width:440px) {
 
+    .HamContent{
+        display: block;
+    }
+
+    .HamContent{ 
+        flex-direction: column;
+        position: fixed;
+        background-color: black;
+        padding: 11px 11px;
+        gap: 0;
+        z-index: 3000;
+        right: -100%;
+        transition: all 0.5s;
+    } 
+    .checkBtn{
+        position: fixed;
+        right: 3%;
+    }
+
+    #check:checked ~ .HamContent{
+        top:47px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.1rem;
+        width: 100%;
+    }
+
+    .HamContent a{
+        color: white;
+    }
+
+
+
+
+
     .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft,.conceptContainerCenterText p,.projectArrow,.projectsPara,.servicesText p,.clientReviewHeading p{
         display: none;
     }
@@ -843,6 +892,7 @@ textarea{
 
     .topContainerHeading h1 {
         display: inline;
+        z-index: 0;
     }
 
     .topContaninerPara {
