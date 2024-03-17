@@ -607,7 +607,6 @@ html,body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    /* opacity: 0.5; */
 }
 
 .contactUsBackgroundColor{
@@ -685,6 +684,78 @@ textarea{
     color: white;
     border: 2px solid white;
 }
+
+.footer{
+    padding: 6% 14% 4% 14%;
+    background-color: #1c1b2d;
+    color: white;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLeft,.footerRight{
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footerCard{
+    width: 45%;
+}
+
+.footerCard a{
+    color: white;
+}
+
+
+.footerCard h2{
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 10%;
+    font-size: 29px;
+}
+
+.footerCard h3{
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 10%;
+}
+
+.footerCard p{
+    word-break: break-all;
+    width: 90%;
+    font-size: 15px;
+}
+
+.footerEmail{
+    width: 46%;
+    margin-left: auto;
+}
+
+.emailInput{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    align-items: center;
+}
+
+.emailInput input{
+    width: 60%;
+    background: transparent;
+    border: none;
+}
+
+.emailInput a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 
 
 
@@ -939,6 +1010,34 @@ textarea{
     .formInput{
         width: 100%;
     }
+
+    .footer{
+        padding: 7% 8%;
+    }
+
+    .footerLeft,.footerRight,.footerCard,.footerContent{
+        width: 100%;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .footerCard h2,.footerCard h3{
+        padding-bottom: 3%;
+        font-weight: 600;
+        color: #b1b1b1;
+        /* text-transform: uppercase; */
+    }
+
+    .footerCard h3{
+        font-size: 28px;
+        padding-bottom: 2%;
+    }
+
+    .footerEmail{
+        width: 100%;
+        padding-top: 4%;
+    }
+
 }
 
 
