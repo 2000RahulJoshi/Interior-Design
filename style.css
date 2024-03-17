@@ -530,11 +530,89 @@ html,body {
     right: -9rem;
 }
 
+.clientReview{
+    padding: 1% 14% 3% 14%;
+}
+
+.clientCadsImg{
+    width: 15%;
+    position: relative;
+}
+
+.clientCardInfo{
+    width: 40%;
+}
+
+.clientCardInfo h4{
+    font-weight: 600;
+}
+
+.clientCards{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.clientReviewContent p{
+    font-size: 14px;
+}
+
+.clientCardInfo p{
+    color: #b1b1b1;
+}
+
+.clientReviewHeading{
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+
+.clientReviewHeading h1{
+    font-weight: 600;
+}
+
+.doubleInvertedComma{
+    position: absolute;
+    z-index: 1000;
+    left: 42%;
+    bottom: 4px;
+}
+
+.clientReviewCardEven{
+    justify-content: flex-end;
+}
+
+.clientReadMoreBtn button{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.clientReadMoreBtn{
+    position: absolute;
+    right: 0;
+    top: 17%;
+    background-color: #ed1c24;
+    border: none;
+    padding: 10px 31px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:440px) {
 
-    .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft,.conceptContainerCenterText p,.projectArrow,.projectsPara,.servicesText p {
+    .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft,.conceptContainerCenterText p,.projectArrow,.projectsPara,.servicesText p,.clientReviewHeading p {
         display: none;
     }
 
@@ -726,6 +804,43 @@ html,body {
 
     .projectsText{
         padding-bottom: 2%;
+    }
+
+    .clientReview{
+        padding: 7% 8% 0% 8%;
+    }
+
+    .clientReviewHeading{
+        width: 100%;
+    }
+
+    .clientReviewHeading{
+        line-height: 1;
+    }
+
+    .clientCards{
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .clientCadsImg{
+        width: 100%;
+    }
+
+    .clientCardInfo{
+        width: 100%;
+    }
+
+    .clientCardInfo p{
+        display: inline;
+        word-break: break-all;
+    }
+
+    .clientReadMoreBtn{
+        position: relative;
+        width: 42%;
+        margin: auto;
+        margin-top: 2rem;
     }
 }
 
