@@ -10,12 +10,20 @@
     list-style: none;
 }
 
-#check,.HamContent{
-    display: none;
+.checkBtn{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.checkBtn:hover > span{
+    border: 2px solid red;
 }
 
 
 
+#check,.HamContent{
+    display: none;
+}
 
 .topContHiddenImg,.aboutHiddenHeading,.aboutLeftHiddenImg {
     display: none;
@@ -142,6 +150,7 @@ html,body {
     border-radius: 7px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .contactUsButton a {
@@ -818,6 +827,28 @@ textarea{
     gap: 1%;
 }
 
+button,.clientReadMoreBtn{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(67, 184, 219);
+    color: black;
+    scale: 1.1;
+    border-radius: 8px;
+}
+
+.clientReadMoreBtn:hover{
+    background-color: rgb(67, 184, 219);
+    color: black;
+    scale: 1.1;
+}
+
+.contactUsButton:hover{
+    background-color: rgb(67, 184, 219);
+}
+
 
 
 
@@ -862,9 +893,6 @@ textarea{
     .HamContent a{
         color: white;
     }
-
-
-
 
 
     .topRightContainerImg,.imageArrow,.zeroOneTextCont,.aboutRightContent h1,.aboutRightImg,.aboutLeft,.conceptContainerCenterText p,.projectArrow,.projectsPara,.servicesText p,.clientReviewHeading p{
