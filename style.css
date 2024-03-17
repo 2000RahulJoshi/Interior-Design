@@ -1153,7 +1153,6 @@ button:hover{
         padding-bottom: 3%;
         font-weight: 600;
         color: #b1b1b1;
-        /* text-transform: uppercase; */
     }
 
     .footerCard h3{
@@ -1176,6 +1175,71 @@ button:hover{
     }
 
 }
+
+
+@media (min-width:440px ) and (max-width:1180px){
+    .projectLeftSlider{
+        left: -5rem;
+    }
+
+    .projectRightSlider{
+        right: -5rem;
+    }
+
+    .HamContent{
+        display: block;
+    }
+
+    .HamContent{ 
+        flex-direction: column;
+        position: fixed;
+        background-color: black;
+        padding: 11px 11px;
+        gap: 0;
+        z-index: 3000;
+        right: -100%;
+        transition: all 0.5s;
+    } 
+    .checkBtn{
+        position: fixed;
+        right: 3%;
+    }
+
+    #check:checked ~ .HamContent{
+        top:47px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.1rem;
+        width: 100%;
+    }
+
+    .HamContent a{
+        color: white;
+    }
+
+    .topContainerHeading h1{
+        z-index: 1;
+    }
+
+    /* .black{
+        top: 22%;
+    }
+
+    .orange{
+        bottom: 32%;
+    } */
+
+    .aboutRightContent p{
+        font-size: 8px;
+    }
+
+    .aboutRightContent h1{
+        font-size: 21px;
+    }
+}
+
 
 
 
