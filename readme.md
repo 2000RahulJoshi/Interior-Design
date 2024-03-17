@@ -31,7 +31,4 @@ git clone https://github.com/2000RahulJoshi/Interior-Design.git
 
 2- Update the styles in the style.css file to customize the look of the lalnding page
 
-<<<<<<< HEAD
 3- Open the index.html file in a web browser to preview the landing page.         
-=======
-3- Open the index.html file in a web browser to preview the landing page.
