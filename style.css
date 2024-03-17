@@ -756,6 +756,22 @@ textarea{
     font-weight: 600;
 }
 
+.footerIcon{
+    padding: 2% 14%;
+}
+
+.footerIcons p{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.footerImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
 
 
 
@@ -1036,6 +1052,15 @@ textarea{
     .footerEmail{
         width: 100%;
         padding-top: 4%;
+    }
+
+    .footerIcon{
+        padding: 2% 8%;
+    }
+
+    .footerIcons p{
+        font-size: 12px;
+        padding-top: 2%;
     }
 
 }
