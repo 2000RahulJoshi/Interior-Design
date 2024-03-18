@@ -1139,9 +1139,67 @@ button:hover,.contactUsButton:hover{
 }
 
 
+@media (min-width:500px ) and (max-width:720px){
+    .topContainerHeading{
+        font-size: 35px;
+    }
+
+    .contactUsButton{
+        width: 28%;
+    }
+
+    .aboutRightContent h1{
+        font-size: 11px;
+    }
+
+    .aboutRightContent p{
+        font-size: 5px;
+    }
+
+    .aboutContainerButton button{
+        font-size: 7px;
+    }
+
+    .projectRightSlider{
+        right: -4rem;
+    }
+
+    .projectLeftSlider{
+        left: -4rem;
+    }
+
+    .footerEmail{
+        width: 70%;   
+        padding-top: 3%; 
+    }
+
+    
+    .footerCard h3,.footerCard h2{
+        font-size: 14px;
+        padding-bottom: 4%;
+    }
+
+    .footerCard p{
+        font-size: 10px;
+    }
+
+    .footerLeft,.footerRight{
+        width: 100%;
+    }
+
+    .footerContent{
+        gap: 2rem;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
 
 /* media query for tab */
-@media (min-width:440px ) and (max-width:1180px){
+@media (min-width:720px ) and (max-width:1180px){
 
     .contactUsButton{
         width: 25%;
