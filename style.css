@@ -847,7 +847,7 @@ button:hover,.contactUsButton:hover{
 
 
 /* media query for the phone */
-@media (max-width:440px) {
+@media (max-width:500px) {
 
     .wHundredPercent{
         width: 100%;
