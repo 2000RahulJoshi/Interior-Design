@@ -903,6 +903,10 @@ button:hover,.contactUsButton:hover{
         padding: 4% 8%;
     }
 
+    .projectCaption,.doubleInvertedComma{
+        z-index: 1;
+    }
+
     .topContainerHeading {
         font-size: 16px;
         padding-bottom: 7%;
@@ -1257,6 +1261,10 @@ button:hover,.contactUsButton:hover{
         right: 3%;
     }
 
+    .projectCaption,.doubleInvertedComma{
+        z-index: 1;
+    }
+
     #check:checked ~ .HamContent{
         top:47px;
         right: 0;
@@ -1264,7 +1272,7 @@ button:hover,.contactUsButton:hover{
         flex-direction: column;
         align-items: center;
         gap: 2.1rem;
-        width: 100%;
+        width: 50%;
     }
 
     #check:checked ~ .checkBtn .line,#check:checked ~ .checkBtn .spanTwo{
