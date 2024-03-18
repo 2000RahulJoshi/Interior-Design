@@ -1142,8 +1142,20 @@ button:hover,.contactUsButton:hover{
 
 /* media query for tab */
 @media (min-width:440px ) and (max-width:1180px){
+
+    .contactUsButton{
+        width: 25%;
+    }
+
+    .footerCard h3,.footerCard h2{
+        font-size: 14px;
+    }
     .projectLeftSlider{
         left: -5rem;
+    }
+
+    .footerCard p{
+        font-size: 10px;
     }
 
     .projectRightSlider{
