@@ -1138,8 +1138,8 @@ button:hover,.contactUsButton:hover{
     }
 }
 
-
-@media (min-width:500px ) and (max-width:720px){
+/* for tablets */
+@media (min-width:500px ) and (max-width:740px){
     .topContainerHeading{
         font-size: 35px;
     }
