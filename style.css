@@ -879,6 +879,10 @@ button:hover,.contactUsButton:hover{
         right: 0;
     }
 
+    #check:checked ~ .checkBtn .line,#check:checked ~ .checkBtn .spanTwo{
+        border: 2px solid black;
+    }
+
     .HamContent a{
         color: white;
     }
@@ -1261,6 +1265,10 @@ button:hover,.contactUsButton:hover{
         align-items: center;
         gap: 2.1rem;
         width: 100%;
+    }
+
+    #check:checked ~ .checkBtn .line,#check:checked ~ .checkBtn .spanTwo{
+        border: 2px solid black;
     }
 
     .HamContent a{
